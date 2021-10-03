@@ -9,11 +9,11 @@
 .indexH1 {
   font-size: 100px;
   color: var(--secondary-color);
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   padding-top: 80px;
 }
 .indexH3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font);
   color: var(--secondary-color);
   padding-top: 20px;
   padding-bottom: 50px;
@@ -27,11 +27,34 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.aboutH1 {
+  color: var(--font-color);
+  font-size: 40px;
+  font-family: var(--heading-font);
+}
+.aboutH2 {
+  color: var(--font-color);
+  font-size: 18px;
+  font-family: var(--bodytext-font);
+}
+.aboutPic {
+  display: block;
+  width: 20;
+}
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.about-content {
+  padding-left: 80px;
+  margin-top: 30px;
+}
 p {
   color: var(--font-color);
   font-weight: normal;
   line-height: 1.5;
 }
+
 .navContent {
   background-color: var(--primary-color);
 }
@@ -69,6 +92,7 @@ a.buttonProject {
 
   cursor: pointer;
 }
+
 .mainHero {
   background-color: var(--primary-color);
   height: 400px;
@@ -85,6 +109,24 @@ a.buttonProject {
   .indexH3 {
     font-size: 18px;
   }
+  .about-content {
+    padding-left: 0;
+  }
+  .aboutH1 {
+    text-align: center;
+  }
+  .aboutH2 {
+    text-align: center;
+  }
+  .about-paragraph {
+    text-align: center;
+  }
+  .buttonProject {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
   .mainHero {
     height: 300px;
   }
@@ -93,5 +135,10 @@ a.buttonProject {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+  }
+  .aboutPic {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
   }
 }
