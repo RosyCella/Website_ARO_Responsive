@@ -85,11 +85,17 @@ a.buttonProject {
 .buttonProject {
   background-color: var(--secondary-color);
   color: var(--font-color);
-  padding: 20px;
+  padding: 15px;
 
   border-radius: 6px;
   border: 1px solid var(--font-color);
   transition: 400ms, ease-in-out;
+}
+.background {
+  background-color: var(--primary-color);
+  color: #f1f0f0;
+  padding-top: 5px;
+  border-radius: 10px;
 }
 .button:hover {
   color: var(--font-color);
