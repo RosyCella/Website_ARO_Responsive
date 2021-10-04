@@ -6,6 +6,26 @@
   --heading-font: "Playfair Display", serif;
   --bodytext-font: "Poppins", sans-serif;
 }
+
+h1 {
+  color: var(--font-color);
+  font-size: 40px;
+  font-family: var(--heading-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
+}
+
+.pageH2 {
+  color: var(--font-color);
+  font-size: 18px;
+  font-family: var(--bodytext-font);
+}
+
 .indexH1 {
   font-size: 100px;
   color: var(--secondary-color);
@@ -27,25 +47,16 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.aboutH1 {
-  color: var(--font-color);
-  font-size: 40px;
-  font-family: var(--heading-font);
-}
-.aboutH2 {
-  color: var(--font-color);
-  font-size: 18px;
-  font-family: var(--bodytext-font);
-}
+
 .aboutPic {
   display: block;
   width: 20;
 }
-.about-section {
+.section {
   padding-top: 100px;
   padding-bottom: 20px;
 }
-.about-content {
+.content {
   padding-left: 80px;
   margin-top: 30px;
 }
@@ -109,15 +120,13 @@ a.buttonProject {
   .indexH3 {
     font-size: 18px;
   }
-  .about-content {
+  .content {
     padding-left: 0;
   }
-  .aboutH1 {
+  .pageH2 {
     text-align: center;
   }
-  .aboutH2 {
-    text-align: center;
-  }
+
   .about-paragraph {
     text-align: center;
   }
